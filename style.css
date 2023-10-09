@@ -52,7 +52,6 @@
 .date{
     float: left;
     width: 90px;
-    padding: 3px;
     list-style: none;
 }
 .job-title, .job {
