@@ -1,0 +1,95 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .name {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-weight: bold;
+    font-size: 2rem;
+    /* border-bottom: 3px dotted black; */
+}
+
+.header .sub-header ul {
+    list-style-type: none;
+    font-size: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header .sub-header ul li {
+    font-size: 1.2rem;
+    color:black;
+    background-color: white;
+    margin: 5px;
+}
+#cert-link:hover, .header .sub-header ul li #linkedin:hover{
+    font-weight: bold;
+    transition: font-weight .2s;
+}
+.summary{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills.body ul{
+    padding-bottom: 10px;  
+    overflow: auto;
+}
+.skills.body ul li{
+    float: left;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.experience-body{
+    border: 3px solid #fff;
+    padding: 0px;
+}
+
+.date{
+    float: left;
+    width: 90px;
+    padding: 3px;
+    list-style: none;
+}
+.job-title, .job {
+    float: center;
+    margin-left: 100px;
+}
+
+.statements{
+    text-align: left;
+    overflow: auto;
+
+}
+
+.summary.title,
+.experience.title,
+.education.title,
+.certifications.title,
+.skills.title{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.summary.title h2,
+.experience.title h2,
+.education.title h2,
+.certifications.title h2,
+.skills.title h2{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 3px dotted #000; 
+    line-height: 0.1em;
+    margin: 10px 0 10px; 
+}
+.summary.title span,
+.experience.title span,
+.education.title span,
+.certifications.title span,
+.skills.title span{
+    background:#fff; 
+    padding:0 10px; 
+}
