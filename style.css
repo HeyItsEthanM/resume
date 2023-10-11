@@ -1,6 +1,18 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+#header-pos{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#under-header{
+    position: absolute;
+    top: 15%;
+}
 
 .header .name {
     display: flex;
@@ -25,6 +37,7 @@
     background-color: white;
     margin: 5px;
 }
+
 #cert-link:hover, .header .sub-header ul li #linkedin:hover{
     font-weight: bold;
     transition: font-weight .2s;
